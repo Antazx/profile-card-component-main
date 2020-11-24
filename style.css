@@ -18,11 +18,16 @@ strong {
     font-weight: 700;
 }
 
+small {
+    font-weight: 100;
+    font-size: 14px;
+}
+
 .container {
     height: 100vh;
     background-color: var(--dark-cyan);
-    background-image: url("/images/bg-pattern-top.svg"),
-    url("/images/bg-pattern-bottom.svg");
+    background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
     background-position: left -300px top -525px, right -260px bottom -600px;
 
@@ -33,7 +38,7 @@ strong {
 }
 
 .profile-card {
-    height: 400px;
+    height: 430px;
     width: 325px;
     border-radius: 15px;
     background-color: white;
